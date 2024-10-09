@@ -1,0 +1,59 @@
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.cjs
+.pnp.loader.mjs
+
+# Yarn cache files
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+.yarn/plugins/
+
+# Lock files
+yarn-error.log
+yarn.lock
+
+# Ignore local environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swp~
+
+# Generated build directories
+dist/
+build/
+out/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Ignore next.js files (if you are using Next.js)
+.next/
+
+# Ignore static files or uploads (customize based on your project)
+static/uploads
+public/uploads
